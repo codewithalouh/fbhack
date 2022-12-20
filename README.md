@@ -7,4 +7,6 @@
 <code>chmod +x setup py</code> <br>
 <code>python3 setup.py</code><br>
 
+#### Note: <b>I am not responsible for any damages cause by this script to you or anyone else. </b>
+ 
 ## Hack the planet!
