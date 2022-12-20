@@ -1,10 +1,10 @@
 # FB HACK TOOL
-a python program to bruteforce fb login
+<strong> A python program to bruteforce fb login </strong>
 
-# how to install?
+### how to install?
 <code>git clone https://github.com/codewithalouh/fbhack </code> <br>
 <code>cd fbhack </code> <br>
-<code>chmod +x fbhack.py</code> <br>
-<code>python3 fbhack.py </code> <br>
+<code>chmod +x setup py</code> <br>
+<code>python3 setup.py</code><br>
 
-# Hack the planet!
+## Hack the planet!
