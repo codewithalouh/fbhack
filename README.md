@@ -15,7 +15,7 @@ git clone https://github.com/codewithalouh/fbhack
 
 cd fbhack
 
-chmod +x setup py
+chmod +x setup.py
 
 python3 setup.py
 ```
