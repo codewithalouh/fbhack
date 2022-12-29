@@ -29,6 +29,7 @@ To run, execute the setup script:
 python3 setup.py
 ```
 
-#### Note: I am not responsible for any damages cause by this script to you or anyone else. 
- 
+## Warning:
+
+Use of this script is at your own risk. By using this script, you acknowledge that the creators and maintainers of the script are not responsible for any damages that may result from its use. This script is provided "as is" without warranty of any kind, either express or implied. It is the responsibility of the user to evaluate the risks and use the script at their own discretion.
 ## Hack the planet!
