@@ -9,16 +9,26 @@
 
 ![gif](https://raw.githubusercontent.com/codewithalouh/codewithalouh/main/IMG_20221219_161959.jpg)
 
-### how to install?
+## Installing
+
+To install, follow these steps:
+
+1. Clone the repository: 
 ```
 git clone https://github.com/codewithalouh/fbhack
-
+```
+2. Navigate to the root directory of the project: 
+```
 cd fbhack
+```
 
-chmod +x setup.py
+## Usage
 
+To run, execute the setup script: 
+```
 python3 setup.py
 ```
+
 #### Note: I am not responsible for any damages cause by this script to you or anyone else. 
  
 ## Hack the planet!
