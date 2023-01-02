@@ -41,7 +41,7 @@ def banner():
 def main():
   banner()
   print(Fore.BLUE + "Setting up Cookies and checking for API")
-  asyncio.rub(api.pinghost())
+  asyncio.run(api.pinghost())
   oumcgsq()
   username = input("TARGET USERNAME: ")
   g = ["test", "Test", "123", "skdja", "TEST"]
