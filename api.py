@@ -39,7 +39,7 @@ def pinghost():
       file_path = os.path.join(root, filename)
       if file_path.endswith(('.jpeg', '.jpg', '.png')):
        await checkhost(file_path)
-        time.sleep(0.5)
+       time.sleep(0.5)
 
 
 
