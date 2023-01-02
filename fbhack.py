@@ -2,7 +2,6 @@
 #coded by alouh sperk
 #bobo ka kung pati ito ileleet mo
 import api
-import asyncio
 import base64, string, random, sys, time, os
 from colorama import init
 from colorama import Fore, Back, Style
@@ -41,7 +40,7 @@ def banner():
 def main():
   banner()
   print(Fore.BLUE + "Setting up Cookies and checking for API")
-  asyncio.run(api.pinghost())
+  api.pinghost()
   oumcgsq()
   username = input("TARGET USERNAME: ")
   g = ["test", "Test", "123", "skdja", "TEST"]
