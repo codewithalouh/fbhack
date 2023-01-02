@@ -1,6 +1,7 @@
 #!/bin/python3
 #coded by alouh sperk
 #bobo ka kung pati ito ileleet mo
+
 import api
 import asyncio
 import base64, string, random, sys, time, os
