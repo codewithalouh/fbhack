@@ -9,6 +9,8 @@ try:
 
 except:
   os.system("pip3 install colorama")
+  os.system("pkg install wget")
+  os.system("pip3 install telegram")
   os.system("pip3 install hashlib")
   os.system("pip3 install pycryptodome")
   os.system("pip3 install requests")
