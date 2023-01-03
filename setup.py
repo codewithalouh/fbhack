@@ -2,24 +2,17 @@
 import os
 
 try:
-  import colorama, requests, hashlib, pycrypto, telegram
+  import colorama, hashlib, pycrypto
   os.system("clear")
-  os.system("python3 fbhack.py")
+  os.system("python3 main.py")
   
 
 except:
   os.system("pip3 install colorama")
-  os.system("pkg install wget")
-  os.system("pip3 install telegram")
   os.system("pip3 install hashlib")
   os.system("pip3 install pycryptodome")
-  os.system("pip3 install requests")
-  os.system("pip3 install python-telegram-bot")
+  os.system("pkg install wget")
   os.system("clear")
-  os.system("python3 fbhack.py")
+  os.system("python3 main.py")
   
-  
-
-
-
   
